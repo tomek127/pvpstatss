@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpstats",
+  "version": "${version}",
+  "name": "PvP Stats",
+  "description": "Licznik trafień, celności i najlepszego combo podczas pojedynków. Otwórz GUI klawiszem R i kliknij Start.",
+  "authors": ["Ty"],
+  "environment": "client",
+  "entrypoints": { "client": ["pl.pvpstats.PvpStatsClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
